@@ -78,7 +78,15 @@
                     </div>
 
                     <div class="contacto-form-wrapper">
-                        <form name="contacto-tu-presencia" method="POST" netlify>
+                        <form name="contacto-tu-presencia"
+                        method="POST" 
+                        netlify-honeypot="bot-field"
+                        netlify>
+                            <p class="hidden">
+                                <label>
+                                Don’t fill this out if you’re human: <input name="bot-field" type="text" />
+                                </label>
+                            </p>
                             <div class="form-group">
                                 <label for="nombre">Nombre</label>
                                 <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan García" required>
