@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Presencia Digital | Landings Profesionales para Negocios Locales</title>
+    <meta name="description" content="Transformamos tu negocio físico en una marca relevante en internet. Landings rápidas, modernas y efectivas.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="container nav-container">
+            <span class="logo">TuPresencia<span class="logo-highlight">Digital</span></span>
+            <div class="nav-links">
+                <a href="#servicios">Servicios</a>
+                <a href="#contacto" class="btn-secondary">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-content">
+            <h1>Construimos <span class="text-gradient">tu presencia digital</span> desde cero</h1>
+            <p>Ayudamos a pequeños negocios y autónomos a brillar en internet con landing pages de alto impacto.</p>
+            <div class="hero-actions">
+                <a href="#contacto" class="btn-primary">Empezar mi proyecto</a>
+                <a href="#servicios" class="btn-outline">Saber más</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="servicios" class="container">
+        <h2 class="section-title">Soluciones a tu medida</h2>
+        <div class="grid">
+            <div class="card card-1">
+                <div class="icon">✨</div>
+                <h3>Identidad Única</h3>
+                <p>No usamos plantillas genéricas. Tu web reflejará la esencia de tu negocio.</p>
+            </div>
+            <div class="card card-2">
+                <div class="icon">📱</div>
+                <h3>100% Mobile Friendly</h3>
+                <p>Tus clientes te verán perfecto desde cualquier móvil o tablet.</p>
+            </div>
+            <div class="card card-3">
+                <div class="icon">🎯</div>
+                <h3>Foco en Ventas</h3>
+                <p>Diseñamos cada sección para convertir visitantes en clientes reales.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto-section">
+        <div class="container form-container">
+            <div class="form-text">
+                <h2>¿Lanzamos tu web?</h2>
+                <p>Completa el formulario y te enviaré un presupuesto gratuito en menos de 24 horas.</p>
+                <ul class="trust-list">
+                    <li>✅ Sin permanencias</li>
+                    <li>✅ Entrega rápida</li>
+                    <li>✅ Soporte personalizado</li>
+                </ul>
+            </div>
+
+            <form id="contact-form">
+                <div class="input-group">
+                    <div class="field">
+                        <label for="from_name">Nombre</label>
+                        <input type="text" name="from_name" id="from_name" placeholder="Ej. Juan Pérez" required>
+                    </div>
+                    <div class="field">
+                        <label for="reply_to">Email</label>
+                        <input type="email" name="reply_to" id="reply_to" placeholder="tu@email.com" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="message">Cuéntanos tu idea</label>
+                    <textarea name="message" id="message" rows="4" placeholder="¿Qué tipo de negocio tienes?" required></textarea>
+                </div>
+                <button type="submit" id="button" class="btn-primary btn-block">Enviar Solicitud</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p><strong>Tu Presencia Digital</strong> - 2026</p>
+            <p>Especialistas en digitalización local.</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+</body>
+</html>
